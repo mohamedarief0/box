@@ -7,7 +7,7 @@
     padding: 10px;
     margin: auto;
     
-    overflow: scroll;
+    /* overflow: scroll; */
     /* box-sizing: border-box; */
     
 
@@ -19,6 +19,7 @@
 }
 .text{
     text-align:center;
+    margin: auto;
     
    
 }
@@ -32,13 +33,18 @@
     color: white;
     background-color: black;
     font-size: 15px;
+    border: none;
     border-radius: 50px;
-    width:100%;
-    padding: 10px 15px;
-    
-    box-sizing: border-box;
+    margin: auto;
+    margin-bottom: 15px;
+    padding: 10px 50px;
+    text-align: center;
+    /* box-sizing: border-box; */
     text-decoration: none;
+
     display: inline-block;
+    /* display: block; */
+    
     
 }
 
@@ -51,5 +57,15 @@
     
     
     
+}
+input{
+    width: 20%;
+    border-color: rgba(65, 65, 65, 0.533);
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 15px;
+    text-align: center;
+    display: inline-block;
+
 }
 
